@@ -6,6 +6,7 @@ weight_to_mpg <- lm(vehicle_weight ~ mpg, MechaCar_mpg_df)
 angle_to_mpg <- lm(spoiler_angle ~ mpg, MechaCar_mpg_df)
 clearance_to_mpg <- lm(ground_clearance ~ mpg, MechaCar_mpg_df)
 awd_to_mpg <- lm(AWD ~ mpg, MechaCar_mpg_df)
+mpg_to_mpg <- lm(mpg ~mpg, MechaCar_mpg_df)
 
 # Plot all the single linear summaries 
 
@@ -28,6 +29,10 @@ abline(lm(ground_clearance~mpg), col="red")
 ## Fifth summary: AWD to MPG
 plot(mpg, AWD, main="Clearance to MPG", xlab="MPG", ylab="AWD", pch=19)
 abline(lm(AWD~mpg), col="red")
+
+## Sixth summary: MPG to MPG
+plot(mpg, mpg, main="MPG to MPG (perfect correlation", xlab="MPG", ylab="MPG", pch=19)
+
 
 ### Save all of the plots (both versions i.e with and without line of best fits)
 
