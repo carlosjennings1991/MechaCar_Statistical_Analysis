@@ -9,3 +9,5 @@ For this first analysis, we perform a linear regression on our first data set to
 Since multiple linear regressions are difficult to visualize, here are all the single multiple regressions. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/all_regressions.png">
+
+As you can see above, none of the slopes are zero, each correlation has some slope, albeit some much more than others. 
