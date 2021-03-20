@@ -12,4 +12,13 @@ Since multiple linear regressions are difficult to visualize, here are all the s
 
 As you can see above, none of the slopes are zero, each correlation has some slope, albeit some much more than others. 
 
+The 6 plotted correlations are as follows: 
+
+* Length (in Feet) to MPG
+* Weight (in Pounds) to MPG
+* Spoiler Angle to MPG
+* Clearance Height (in Inches) to MPG
+* AWD to MPG
+* MPG to MPG (perfect correlation)
+
 For example, length is the greatest predictor of increase in MPG. Somewhat surprisingly, weight is not a great predictor of MPG. 
