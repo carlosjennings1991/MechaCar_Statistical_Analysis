@@ -33,3 +33,7 @@ Again, we see that vehicle length has the steepest slope, with every 1 increase 
 
 ---
 ## Part 2: 
+
+For the second analysis, we review the Suspension Coils of an automanufacturer who produces from 3 different facilities (i.e 'Lots'). On our first pass, we review the data as a whole -undifferentiated by group, and on the second pass we subdivided the data lot origin. 
+
+[Source Data of Suspension Coils Here](https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Suspension_Coil.csv)
