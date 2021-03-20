@@ -22,3 +22,7 @@ The 6 plotted correlations are as follows:
 * MPG to MPG (perfect correlation)
 
 For example, length is the greatest predictor of increase in MPG. Somewhat surprisingly, weight is not a great predictor of MPG. 
+
+Now, lets look at the summary statistics for the multiple line regression of all the variables. 
+
+<img src="summary_statistics_table_MLR.png">
