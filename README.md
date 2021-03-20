@@ -27,4 +27,4 @@ For example, length is the greatest predictor of increase in MPG. Somewhat surpr
 
 Now, lets look at the summary statistics for the multiple line regression of all the variables. 
 
-<img src="summary_statistics_table_MLR.png">
+<img src="summary_statistics_table_MLR_outlined.png">
