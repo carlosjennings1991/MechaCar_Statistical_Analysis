@@ -63,3 +63,7 @@ Below is the line of code that processed the original source data into our group
 ## Part 3: 
 
 For the third analysis, we analyze a sample's PSI against the population as a whole and then analyze each lot's PSI vs the population as a whole. 
+
+Here's a sampling of 50 (out of a population of 150). 
+
+<img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Sample_vs_Population.png">
