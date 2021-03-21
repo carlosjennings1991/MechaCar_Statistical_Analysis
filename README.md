@@ -102,5 +102,12 @@ Based on the three t-tests, we can see that lots 1 and 2 both have high t values
 ---
 ## Study Design: MechaCar vs Competition
 
-Total cost of ownership is a crucial conscept for any car driver, and the concept is pretty simple. Purchase price isn't the only cost to consider. One must also factor in maintenance and fuel efficiency to generate a more comprehensive metric known as 'Total Cost of Ownership'. For MechaCar it means positioning their cars as being more cost competitive vs the competition when these additional metrics are considered. 
+Total cost of ownership is a crucial conscept for any car driver, and the concept is pretty simple. Purchase price isn't the only cost to consider. One must also factor in maintenance and fuel efficiency to generate a more comprehensive metric known as 'Total Cost of Ownership'. For MechaCar it means positioning their cars as being more cost competitive vs the competition when these additional metrics are considered. To successfully showcase this concept, we need a few things which are listed below: 
+
+1. Metrics to test the hypthesis. Purchase Price, MPG (city and highway), and est. Maintenance cost (per year). 
+2. A null hypthesis to test against, which would be that purchase price does not influence total cost of ownership. 
+3. A multiple linear regression test, since we are considering how the two dependent variables (MPG and Maintenance Cost) affect the purchase price. 
+4. Data on yearly maintenance cost. 
+
+With the currently unavailable data on maintenance cost being made available, we could showcase how the lowest priced car isn't necessarily the best value when one factors in the total ownership costs i.e fuel efficiency and maintenance cost. 
 
