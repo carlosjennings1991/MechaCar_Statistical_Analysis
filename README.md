@@ -46,7 +46,6 @@ Here is the line of code, written in R, that processed the original source data 
 
 ```total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))```
 
-<br>
 
 ##
 
