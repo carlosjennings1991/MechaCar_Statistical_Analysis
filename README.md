@@ -96,3 +96,5 @@ Here is the second analysis, which focuses on Lot2's PSI vs the Population as a 
 Here is the third analysis, which focuses on Lot3's PSI vs the Population as a whole. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Lot3_vs_Population.png">
+
+Based on the three t-tests, we can see that lots 1 and 2 both have high t values and low p values. This weakens the null hypthesis as there is clearly a difference between these two lots and lot three, and we cannot chalk up the differences to random chance - there is clearly something that is negatively affecting the outcomes of lot 3, or conversely, there is clearly something positively affecting the outcomes in lots 1 and 2 (especially lot 1). 
