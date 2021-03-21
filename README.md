@@ -45,3 +45,5 @@ As we can see, the mean and median are closely grouped, with a very small PSI di
 Next, we review this data but grouped by origin lot. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/lot_summary.png">
+
+This provides a much more precise picture of what's happening on the ground floor. We can see that Lot 1 performs very well, with a standard deviation with less than 1 PSI. Lot 2 is still pretty good, but the standard deviation is appreciably higher and Lot 3 has a dramatically higher standard deviation and variance. 
