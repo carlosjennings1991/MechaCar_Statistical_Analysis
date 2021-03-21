@@ -67,3 +67,9 @@ For the third analysis, we analyze a sample's PSI against the population as a wh
 The first step (sample vs population) was created through this line of code ```t.test(log10(sample_table$PSI),mu=mean(log10(suspension_coil_df$PSI)))```, and generated the below summary. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Sample_vs_Population.png" height="200" width="449">
+
+#
+The second step, creating a data frame for each lot were created by the following lines of code. 
+```lot1_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot1')```
+```lot2_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot2')```
+```lot3_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot3')```
