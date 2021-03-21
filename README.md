@@ -84,3 +84,15 @@ Then we compare each subset vs the population using these lines of code.
 ```t.test(log10(lot2_df$PSI),mu=mean(log10(suspension_coil_df$PSI)))```
 <br>
 ```t.test(log10(lot3_df$PSI),mu=mean(log10(suspension_coil_df$PSI)))```
+
+Here is the first analysis, which focuses on Lot1's PSI vs the Population as a whole. 
+
+<img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Lot1_vs_Population.png">
+
+Here is the second analysis, which focuses on Lot2's PSI vs the Population as a whole. 
+
+<img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Lot2_vs_Population.png">
+
+Here is the third analysis, which focuses on Lot3's PSI vs the Population as a whole. 
+
+<img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Lot3_vs_Population.png">
