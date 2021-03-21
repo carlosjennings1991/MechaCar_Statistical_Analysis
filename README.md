@@ -76,3 +76,11 @@ The second step, creating a data frame for each lot were created by the followin
 ```lot2_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot2')```
 <br>
 ```lot3_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot3')```
+
+Then we compare each subset vs the population using these lines of code. 
+<br>
+```t.test(log10(lot1_df$PSI),mu=mean(log10(suspension_coil_df$PSI)))```
+<br>
+```t.test(log10(lot2_df$PSI),mu=mean(log10(suspension_coil_df$PSI)))```
+<br>
+```t.test(log10(lot3_df$PSI),mu=mean(log10(suspension_coil_df$PSI)))```
