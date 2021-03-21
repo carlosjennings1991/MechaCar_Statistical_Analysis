@@ -48,6 +48,8 @@ Here is the line of code, written in R, that processed the original source data 
 
 <br>
 
+---
+
 Next, we review this data but grouped by origin lot. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/lot_summary.png">
