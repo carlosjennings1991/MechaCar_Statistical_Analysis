@@ -56,4 +56,4 @@ This provides a much more precise picture of what's happening on the ground floo
 
 Below is the line of code that processed the original source data into our grouped summary. 
 
-*-lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))*
+@@lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))@@
