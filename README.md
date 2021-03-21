@@ -46,9 +46,14 @@ Here is the line of code, written in R, that processed the original source data 
 
 *total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))*
 
+<br>
 
 Next, we review this data but grouped by origin lot. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/lot_summary.png">
 
-This provides a much more precise picture of what's happening on the ground floor. We can see that Lot 1 performs very well, with a standard deviation with less than 1 PSI. Lot 2 is still pretty good, but the standard deviation is appreciably higher and Lot 3 has a dramatically higher standard deviation and variance. 
+This provides a much more precise picture of what's happening on the ground floor. We can see that Lot 1 performs very well, with a standard deviation with less than 1 PSI. Lot 2 is still pretty good, but the standard deviation is appreciably higher and Lot 3 has a dramatically higher standard deviation and variance. f
+
+Below is the line of code that processed the original source data into our grouped summary. 
+
+*lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))*
