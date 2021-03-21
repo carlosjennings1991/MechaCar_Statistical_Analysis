@@ -42,6 +42,10 @@ For the second analysis, we review the PSI (pounds per square inch) of Suspensio
 
 As we can see, the mean and median are closely grouped, with a very small PSI difference between them. We have a standard deviation of 7.89 PSI and raising this figure to the power of 2 gives us our Variance. 
 
+Here is the line of code, written in R, that processed the original source data into our summary: 
+
+**total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))**
+
 Next, we review this data but grouped by origin lot. 
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/lot_summary.png">
