@@ -98,3 +98,9 @@ Here is the third analysis, which focuses on Lot3's PSI vs the Population as a w
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Lot3_vs_Population.png">
 
 Based on the three t-tests, we can see that lots 1 and 2 both have high t values and low p values. This weakens the null hypthesis as there is clearly a difference between these two lots and lot three, and we cannot chalk up the differences to random chance - there is clearly something that is negatively affecting the outcomes of lot 3, or conversely, there is clearly something positively affecting the outcomes in lots 1 and 2 (especially lot 1). 
+
+---
+## Study Design: MechaCar vs Competition
+
+Total cost of ownership is a crucial conscept for any car driver, and the concept is pretty simple. Purchase price isn't the only cost to consider. One must also factor in maintenance and fuel efficiency to generate a more comprehensive metric known as 'Total Cost of Ownership'. For MechaCar it means positioning their cars as being more cost competitive vs the competition when these additional metrics are considered. 
+
