@@ -71,5 +71,7 @@ The first step (sample vs population) was created through this line of code ```t
 #
 The second step, creating a data frame for each lot were created by the following lines of code. 
 ```lot1_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot1')```
+<br>
 ```lot2_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot2')```
+<br>
 ```lot3_df <- subset(suspension_coil_df, Manufacturing_Lot=='Lot3')```
