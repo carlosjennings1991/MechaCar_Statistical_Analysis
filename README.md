@@ -34,8 +34,14 @@ Again, we see that vehicle length has the steepest slope, with every 1 increase 
 ---
 ## Part 2: 
 
-For the second analysis, we review the Suspension Coils of an automanufacturer who produces from 3 different facilities (i.e 'Lots'). On our first pass, we review the data as a whole -undifferentiated by group, and on the second pass we subdivided the data lot origin. 
+For the second analysis, we review the PSI (pounds per square inch) of Suspension Coils from an automanufacturer who produces from 3 different facilities (i.e 'Lots'). On our first pass, we review the data as a whole -undifferentiated by group, and on the second pass we subdivided the data lot origin. 
 
 [Source Data of Suspension Coils Here](https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/Suspension_Coil.csv)
 
 <img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/total_summary.png">
+
+As we can see, the mean and median are closely grouped, with a very small PSI difference between them. We have a standard deviation of 7.89 PSI and raising this figure to the power of 2 gives us our Variance. 
+
+Next, we review this data but grouped by origin lot. 
+
+<img src="https://github.com/carlosjennings1991/MechaCar_Statistical_Analysis/blob/main/lot_summary.png">
