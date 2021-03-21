@@ -44,7 +44,8 @@ As we can see, the mean and median are closely grouped, with a very small PSI di
 
 Here is the line of code, written in R, that processed the original source data into our summary: 
 
-**total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))**
+*total_summary <- suspension_coil_df %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=sd(PSI) ** 2,SD=sd(PSI))*
+
 
 Next, we review this data but grouped by origin lot. 
 
